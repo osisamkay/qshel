@@ -1,0 +1,42 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .group {
+    width: 90%;
+    max-width: 932px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 70px;
+    .left {
+      width: 90%;
+      max-width: 466px;
+      background-color: red;
+      background-image: url(../Assets/login.png);
+      contain: 100% 100%;
+      height: 501px;
+      padding: 36px 39px;
+      .welcome {
+        font-family: TT Commons;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 55px;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+    .right {
+      width: 90%;
+      background: #fafafa;
+      max-width: 466px;
+    }
+  }
+}
+.p-error,
+.p-invalid {
+  color: #f44336;
+  display: block;
+}
