@@ -1,6 +1,15 @@
+@import "~antd/dist/antd.css";
+@import '~primereact/resources/themes/saga-blue/theme.css';
+@import '~primereact/resources/primereact.min.css';
+@import '~primeicons/primeicons.css';
+@font-face {
+  font-family: 'TT Commons';
+  src: local('TT Commons'), url(./Fonts/TTCommons-Regular.ttf) format('truetype');
+}
 * {
   margin: 0;
   padding: 0;
+   font-family: TT Commons, serif;
 }
 
 body {
